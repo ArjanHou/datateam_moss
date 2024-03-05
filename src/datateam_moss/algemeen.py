@@ -98,7 +98,7 @@ def del_meerdere_tabellen_catalog(catalog: str, schema: str, tabellen_filter: st
     print(set_tabellen_catalog_filter)
     
     # Vraag om bevestiging voor verwijdering van de tabellen
-    verwijder_check = input("Je staat op het punt om deze tabellen te verwijderen uit de CATALOG. Typ 'ja' om de tabellen te verwijderen.")
+    verwijder_check = input("Je staat op het punt om deze tabellen te verwijderen uit de CATALOG. Typ 'ja' om de tabellen te verwijderen ->")
     
     # Verwijder de geselecteerde tabellen indien bevestigd
     if verwijder_check == "ja":
