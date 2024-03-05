@@ -102,7 +102,7 @@ def del_meerdere_tabellen_catalog(catalog: str, schema: str, tabellen_filter: st
     
     # Verwijder de geselecteerde tabellen indien bevestigd
     if verwijder_check == "ja":
-        print("De opgegeven tabellen worden nu verwijderd")
+        print("De opgegeven tabellen worden nu verwijderd...")
         for table in set_tabellen_catalog_filter:
             spark.sql(f"DROP TABLE {catalog}.{schema}.{table}")
         print("De opgegeven tabellen zijn correct verwijderd.") 
