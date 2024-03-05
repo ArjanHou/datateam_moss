@@ -75,7 +75,7 @@ def del_meerdere_tabellen_catalog(catalog: str, schema: str, tabellen_filter: st
 
     Raises:
         ValueError: Als er geen tabellen zijn die overeenkomen met het opgegeven filter.
-
+    Gebruik: del_meerdere_tabellen_catalog(catalog=CATALOG, schema=SCHEMA, tabellen_filter=)
     Returns:
         None
     """
